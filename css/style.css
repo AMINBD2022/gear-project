@@ -189,7 +189,7 @@ nav li a i{
 }
 
 
-/* ------------------------ gEAR SECTION--------------------------- */
+/* ------------------------ GEAR SECTION--------------------------- */
 .gear-section{
     gap:96px;
     padding: 100px 15px;
@@ -278,6 +278,7 @@ footer{
         flex-direction: row;
         gap:15px;
         flex-wrap: wrap;
+        justify-content: center;
     }
     header .hero-section ,  .gear-section 
     {
