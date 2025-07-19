@@ -40,6 +40,12 @@
     cursor: pointer;
 }
 
+.section-title{
+    font-size: 1.75rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
 .title{
     font-size: 1.5rem;
     font-weight: 700;
@@ -50,7 +56,9 @@
     font-size: 1rem;
     font-weight: 600;
 }
-
+.text-center{
+    text-align: center;
+}
 .accent-color{
     color:#E02C6D;
 }
@@ -101,4 +109,95 @@ nav li a i{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+
+/* hero section end  */
+
+
+.brands-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 70px auto;
+    padding: 25px 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.brands-section img{
+    cursor: pointer;
+}
+
+
+/*----------------------------------- Card section styl -------------------------*/
+
+
+.card-section{
+    padding: 50px 15px 80px;
+}
+.card-section .section-title.text-center{
+    margin : 30px auto;
+}
+.card-area{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap:30px;
+    max-width: 1150px;
+    margin: auto;;
+}
+
+.card{
+    padding: 17px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+.card img{
+    width: 100%;
+}
+.card .ratting i{
+    color:#FB8200;
+}
+.card-description {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color:rgba(120, 120, 133, 1);
+    max-width: 190px;
+}
+
+.card-section .see-more{
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    margin-top: 30px;
+    border:none;
+    background-color: transparent;
+    position:relative;
+    left: calc(100% - 100px);
+}
+
+
+/* ------------------------ gEAR SECTION--------------------------- */
+.gear-section{
+    gap:96px;
+    padding: 100px 15px;
+    align-items: center;
+}
+
+.gear-section .content-box > *{
+    margin-bottom: 15px;
+}
+.gear-title{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.gear-description{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: rgba(108, 108, 108, 1);
+    max-width: 500px;
+}
+.btn-secondary{
+    border-radius: 0;
 }
